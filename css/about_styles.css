@@ -1,0 +1,115 @@
+* { box-sizing: border-box;
+  -webkit-margin-before: 0;
+}
+
+title {
+  position: relative;
+  top: 20px;
+  z-index: -1
+}
+
+ul {
+  margin-left: 40px;
+}
+
+body {
+  background-color: #fffeea;
+  color: #34495e;
+}
+
+.skill-column {
+  padding: 20px;
+  background-color: #5AD4C2;
+  color:#FFF;
+}
+
+.left { float: left; }
+.right { float: right; }
+
+h3 {
+text-align: center;
+text-transform: uppercase;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%  ;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.column {
+  display: inline-block;
+  float: left;
+  width: 33.33333333333333%;
+}
+
+.main-text {
+padding-top: 60px;
+clear: both;
+}
+
+.image img {
+  width: 100%;
+}
+
+.image-column {
+  padding: 0px;
+}
+/***NAVIGATION ABOUT CSS***/
+nav {
+  font-style: inherit;
+  display: inline;
+  font-size: 1em;
+  position: fixed;
+  width: 100% !important;
+  top: 0;
+  left: 0;
+  -webkit-transition: color 100ms;
+  background-color: red;
+  z-index: 1;
+}
+
+nav a {
+font-style: inherit;
+display: inline;
+-webkit-transition: color 100ms;
+padding: top:3px; left:3px;
+border-bottom:5px;
+border-top:0px solid #fff;
+margin:6em 5em 3em;
+width: 100%;
+}
+
+nav a:hover {
+ color: #ff0;
+ text-decoration: none;
+ z-index: 1;
+}
+
+content {
+  padding-top: 40px;
+}
+
+.nav-container {
+  background-color: #fff;
+
+}
+
+
+/*Typography*/
+h1{
+  padding-top: 15px;
+  },
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+.intro p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 10;
+
+}
