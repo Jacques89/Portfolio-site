@@ -20,7 +20,7 @@ ul { list-style: none; }
 
 /* Header */
 #home {
-  background-image: url('../img/darkcomp.jpg');
+  background: url('../img/darkcomp.jpg') center center;
   background-attachment: fixed;
   background-size: cover;
   height: 600px;
