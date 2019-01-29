@@ -20,7 +20,7 @@ ul { list-style: none; }
 
 /* Header */
 #home {
-  background-image: url('../img/darkcomp.jpg');
+  background: url('../img/darkcomp.jpg') center center;
   background-attachment: fixed;
   background-size: cover;
   height: 600px;
@@ -47,7 +47,7 @@ section hr {
   width: 100%;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px, min-width: 200px) {
   /* Sections Content */
   section hr {
     margin-top: 0;
@@ -168,15 +168,27 @@ section hr {
 }
 
 .skill {
-
+  font-size: 24px;
   background-color: #f0c75e;
   color: #372e29;
 }
+
 .intro p {
   font-size: 1.18em;
   -webkit-margin-before: 0;
 }
-.main-text p { font-size: 1.1em; }
+
+.main-text {
+  margin-top: 2em;
+}
+
+.main-text p { font-size: 1.1em;
+}
+
+/* About Image */
+.text-center {
+  margin-bottom: 2em;
+}
 
 @media (max-width: 576px) {
   .image {
@@ -187,14 +199,11 @@ section hr {
 }
 
 /* ============ Contact Section ============ */
-#contact {
- padding-bottom: 70px; 
-
-}
 
 /* Contact Details */
 .contact-information {
   padding: 14px;
+  margin-bottom: 2em;
   color: #372e29;
   background-color: #f0c75e;
 }
