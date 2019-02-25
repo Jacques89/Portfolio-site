@@ -21,11 +21,13 @@ ul { list-style: none; }
 
 /* Header */
 #home {
-  background: url('../img/j2.png') center center;
+  background: url('../img/desk.jpg') center center;
   background-attachment: fixed;
-  background-size: cover;
-  height: 600px;
-  background-position: 2px 900px;
+  background-size: 100%;
+  height: 50vh;
+  background-position: top;
+  background-repeat: no-repeat;
+
 }
 
 #home h1 { font-size: 4em; }
@@ -264,6 +266,9 @@ li { font-family: 'Quattrocento', serif; }
   display: inline;
   padding: 1rem;
 }
+
+/* Media Queries */
+
 @media (min-width: 576px) {
   .nav-link:hover,
   .nav-link.active {
