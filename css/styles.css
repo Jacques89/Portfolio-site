@@ -10,6 +10,7 @@ body {
   padding-top: 56px;
   background-color: #726255;
   color: #FBFBFB;
+
 }
 ul { list-style: none; }
 #contact-details,
@@ -20,13 +21,13 @@ ul { list-style: none; }
 
 /* Header */
 #home {
-  background: url('../img/darkcomp.jpg') center center;
+  background: url('../img/j2.png') center center;
   background-attachment: fixed;
   background-size: cover;
   height: 600px;
-  padding-top: 20px;
-  color: #ecb939;
+  background-position: 2px 900px;
 }
+
 #home h1 { font-size: 4em; }
 #home p { font-size: 1.3em; }
 
